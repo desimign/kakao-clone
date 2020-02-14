@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <style>
+    body {
+      height: 1500px;
+      margin: 0;
+      padding: 0;
+    }
+    .boxTop {
+      background-color: #ff7979;
+      position: fixed;
+      display:block;
+      width: 100%;
+      height: 100px;
+      z-index:1;
+    }
+    .boxLeft {
+      background-color: #7ed6df;
+      display: inline-block;
+      width:70%;
+      height:100%;      
+      float:left;
+      position:relative;      
+      margin-top:100px;
+    }
+    .boxLeftText {
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+    position:absolute;
+    }
+    .boxRight {
+      background-color: #f9ca24;
+      width: 30%;
+      height: 100%;      
+      box-sizing:border-box;
+      margin-top:100px;
+      border: 5px solid gray;
+      display: inline-block;
+    }
+            .boxFly {
+              width: 100px;
+              height: 50px;
+              background-color: #badc58;
+              margin-top: 77px;
+              margin-left: calc(70% - 50px);
+              position: absolute;
+              z-index: 1;
+            }
+  </style>
+  <body>
+    <div class="boxTop"></div>
+    <div class="boxFly"></div>
+    <div class="boxLeft">
+      <span class="boxLeftText">This is the day one</span>
+    </div>
+
+    <div class="boxRight"></div>
+  </body>
+</html>
+
+<!-- <몸>의 높이는 1500px여야 한다.
+
+맨 위 빨간 막대는 내가 스크롤을 해도 페이지 맨 위에 있어야 한다.
+
+흰색 제목에는 파란색 상자의 테두리에서 50px의 공간이 있어야 한다.
+
+노란색 상자는 회색 테두리가 있어야 한다.
+
+.css 파일 하나와 .html 파일 하나가 있어야 한다.
+
+녹색 상자는 빨간색, 파란색, 노란색 사이의 교차점에 있어야 한다. -->
