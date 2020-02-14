@@ -5,9 +5,42 @@
         <meta name="author" content="kirby87">
         <meta name="description" content="Welcome to my Kakao Clone">        
         <title>This is my title</title>
+        <link href="styles.css" rel="stylesheet">
     </head>
-    <body>
-        <h1>This is my big title</h1>
-        <h6>This is my small title</h6>
+    <style>
+        .box{ 
+            width:200px;
+            height:200px;
+            background-color:black;            
+            color:white;            
+            line-height:200px;
+            text-align: center;
+
+            animation: 20s aniBox infinite ease-in-out;
+       
+        }
+        @media screen and (min-width:320px) and (max-width:640px){
+            body{
+                background-color:black;
+            }
+        }
+        @keyframes aniBox{ 
+            /* or from to */
+            0%{
+                transform:none;
+            }
+            50%{
+                transform:rotate(1turn) scale(1.5);
+                background-color:blueviolet;
+                color:black;         
+            }
+            100%{
+                transform:none;
+            }
+        }
+    </style>
+    <body>        
+        <div class="box">This is my big title</div>
+        
     </body>
 </html>

@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .btn {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    border-radius: 100px;
+    /* 검은그림자 넣기 */
+  }
+  .btn:hover {
+    box-shadow: 5px 5px 5px lightgray;
+  }
+  .humanBox {
+    background-color: lightsalmon;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 3s ease-in-out;
+  }
+  .humanBox:hover {
+    transform: rotate(-220deg) scale(0.5);
+    border: 5px solid black;
+  }
+  .humanIcon {
+    margin-top: -13px;
+  }
+  .humanIcon:nth-child(2) {
+    font-size: 20px;
+  }
+  .humanSay {
+    height: 110px;
+    position: absolute;
+    cursor: pointer;
+    color: lightsalmon;
+    animation: 2s sayHello infinite ease-in-out;
+  }
+  #c1 {
+    animation: 2s up1 infinite ease-in-out;
+  }
+  #c2 {
+    animation: 2s up2 infinite ease-in-out;
+  }
+  #c3 {
+    animation: 2s up3 infinite ease-in-out;
+  }
+  #c4 {
+    animation: 2s up4 infinite ease-in-out;
+  }
+  #c5 {
+    animation: 2s up5 infinite ease-in-out;
+  }
+  @keyframes sayHello {
+    0% {
+      color: lightsalmon;
+    }
+    40% {
+      color: black;
+    }
+    60% {
+      font-weight: bold;
+    }
+    100% {
+      color: lightsalmon;
+    }
+  }
+  @keyframes up1 {
+    30% {
+      text-transform: uppercase;
+    }
+    100% {
+      text-transform: initial;
+    }
+  }
+  @keyframes up2 {
+    40% {
+      text-transform: uppercase;
+    }
+    100% {
+      text-transform: initial;
+      content: "x";
+    }
+  }
+  @keyframes up3 {
+    50% {
+      text-transform: uppercase;
+    }
+    100% {
+      text-transform: initial;
+    }
+  }
+  @keyframes up4 {
+    60% {
+      text-transform: uppercase;
+    }
+    100% {
+      text-transform: initial;
+    }
+  }
+  @keyframes up5 {
+    70% {
+      text-transform: uppercase;
+    }
+    100% {
+      text-transform: initial;
+    }
+  }
+  @media screen and (min-width:320px) and (max-width:640px){
+    body{
+        background-color:black;
+    }
+}
