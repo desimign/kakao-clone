@@ -1,0 +1,13 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Single+Day&display=swap&subset=korean");
+@import "top.css";
+@import "bot.css";
+body {
+  background-color: black;
+  display: flex;
+  height: 940px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans KR";
+}
