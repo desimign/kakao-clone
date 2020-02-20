@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+@import "reset.css";
+@import "trip.css";
+@import "nav.css";
+
+body {
+  background-color: black;
+  margin: 100px;
+  font-family: "Ubuntu";
+}
+* {
+  box-sizing: border-box;
+}
+.homework {
+  width: 400px;
+  height: 800px;
+  background-color: #deedee;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.status__clock {
+  font-weight: 500;
+}
+.status .status__icon i {
+  margin-left: 5px;
+}

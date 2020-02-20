@@ -1,0 +1,115 @@
+.trip__top-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.trip__top-icon i {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.trip__mainimg {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.trip__thumbnails {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.trip__thumbnail,
+.trip__thumbnail-number {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.trip__thumbnail-number {
+  text-align: center;
+  line-height: 50px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.trip__keywords {
+  display: flex;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.trip__keyword {
+  padding: 10px;
+  border-radius: 10px 10px 10px 0px;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.trip__data {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.trip__subject {
+  font-weight: 700;
+  font-size: 35px;
+}
+.trip__data i {
+  color: red;
+  padding: 13px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 11px 15px 36px -15px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.trip__address {
+  margin-top: 10px;
+}
+.trip__address i {
+  color: dodgerblue;
+  font-size: 12px;
+}
+.trip__addr-text,
+.trip__distance {
+  opacity: 0.5;
+  margin-left: 5px;
+  font-size: 18px;
+}
+.trip__info {
+  margin-top: 10px;
+}
+.trip__address-info {
+  display: flex;
+  justify-content: space-between;
+}
+.trip__address-info i {
+  color: peru;
+}
+.trip__point {
+  font-size: 18px;
+  font-weight: 500;
+}
+.trip__distance {
+  margin: 0;
+}
+.trip__overview {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.5;
+  display: block;
+}
+.trip__detail {
+  margin-top: 10px;
+  font-size: 15px;
+  opacity: 0.7;
+  line-height: 25px;
+  display: block;
+}
+.trip__readmore {
+  margin-top: 20px;
+  font-size: 20px;
+  color: dodgerblue;
+  font-weight: 500;
+  display: block;
+}
