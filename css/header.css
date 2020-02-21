@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:30px;
+    margin-bottom:30px;    
+    background-color:white;
+    
 }
 
 .header .header__title{

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+
+body {
+  background-color: black;
+  margin: 100px;
+  font-family: "Ubuntu";
+}
+* {
+  box-sizing: border-box;
+}
+.case {
+  width: 300px;
+  height: 600px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  padding: 30px;
+  position: relative;
+}
+.header__header{
+  display: flex;
+  justify-content: space-between;      
+}
+.header__header i, .header__subject{
+  color:gray;
+}
+.header__subject{
+  font-size:18px;
+  font-weight:500;
+}
+.pic__categories{
+  display: flex;
+  justify-content: space-between;
+  margin-top:20px;
+}
+.pic__category, .other__category{
+  color:black;
+  font-size:14px;
+  font-weight:500;
+}
+.pic__sort{
+  color:crimson;
+  font-size: 12px;
+  font-weight:500;
+}
+.pic__squares{
+  display: flex;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+.pic__square{
+  width:115px;
+  height:65px;
+  text-align: center;
+  line-height:65px;   
+  background-size:200px;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  border-radius: 10px;      
+  color:white;
+  font-size:14px;
+}
+.pic__square:nth-child(2n+1){
+  margin-right:10px;
+}
+#f01{
+  background-image: url("images/01.jpg");   
+}
+#f02{
+  background-image: url("images/02.jpg");   
+}
+#f03{
+  background-image: url("images/03.jpg");   
+  margin-top:10px;
+}
+#f04{
+  background-image: url("images/04.jpg");   
+  margin-top:10px;
+}
+
+.other{
+  margin-top:20px;
+}
+
+.other__list{
+  width:100%;
+  height:50px;
+  background-color:white;
+  border-radius:10px;
+  margin-top:10px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;      
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+}
+.other__subject{
+  font-weight:bold;
+  font-size:14px;
+}
+.other__count{
+  font-size:13px;
+  color:darkgrey;
+  display:block;
+}
+.other__list i{
+  color:tomato;
+  font-size:15px;
+}
+
+.nav {
+height: 50px;
+background-color:whitesmoke;
+display: flex;
+justify-content: space-around;
+position: fixed;
+align-items: center;
+width: 270px;
+margin-left: -15px;
+margin-top: -44px;
+border-radius: 0px 0px 20px 20px;
+}
+.nav i{
+  color:gray;
+  font-size: 20px;
+}
+.nav i:nth-child(2){
+  color:tomato;
+}
