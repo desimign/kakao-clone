@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Noto+Sans+KR&display=swap&subset=korean");
+
+body {
+  background-color: white;
+  margin: 100px;
+  font-family: "Noto Sans KR";
+}
+
+.homework {
+  border: 5px solid dodgerblue;
+  width: 330px;
+  height: 700px;
+  padding: 30px;
+  position: relative;
+}
+
+.homework__bg {
+  width: 320px;
+  height: 690px;
+  margin: -30px;
+  position: absolute;
+  background: url("../images/profile.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  opacity: 0.075;
+  z-index: -1;
+}
+i {
+  font-size: 12px;
+}
+* {
+  box-sizing: border-box;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status__clock {
+  font-weight: 400;
+  font-size: 14px;
+}
+.status .status__icon i {
+  margin-left: 5px;
+}
+.sns__top-icon {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.sns__top-icon i {
+  font-size: 20px;
+}
+.sns__profile-text {
+  font-family: "Ubuntu";
+  font-size: 20px;
+}
+.sns__user-info.user-info {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info .user-info__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.user-info .user-info__name {
+  font-family: Nanum Pen Script;
+  font-size: 30px;
+  color: dodgerblue;
+  margin-top: 15px;
+}
+.user-info .user-info__place {
+  font-family: Nanum Pen Script;
+  color: darkgray;
+  font-size: 25px;
+}
+.sns__btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.sns__btn > div {
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  line-height: 40px;
+}
+.sns__follow-btn {
+  background-color: white;
+}
+.sns__message-btn {
+  margin-left: 10px;
+  background-color: dodgerblue;
+  color: white;
+}
+.sns__user-data.user-data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.user-data__column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: darkgray;
+  font-size: 14px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav__icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.nav__icons i {
+  font-size: 20px;
+}
+.nav__bar {
+  margin-top: 20px;
+  border-top: 3px solid darkgray;
+  width: 40%;
+}
