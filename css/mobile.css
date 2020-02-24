@@ -12,9 +12,9 @@
   color: white;
   font-size: 50px;
   /* font-weight: 500; */
-  padding: 0px 20px;
   line-height: 1.5;
   text-shadow: 4px 4px 10px gray;
+  display: none;
 }
 
 @media screen and (min-width: 550px) {
