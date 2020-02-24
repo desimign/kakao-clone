@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Noto+Sans+KR&display=swap&subset=korean");
+
+body{
+  background-color: #ddedde;
+  display: flex;
+  flex-direction: column;        
+}
+.hw1__layer-back{
+  background-image: url('images/01.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:400px;
+  width:300px;
+  height:200px;
+  position: relative;
+}
+.hw1__layer-front{
+  background-color:#34495e;
+  width:300px;
+  height:200px;
+  display:flex;
+  position: absolute;
+  flex-direction: column;        
+  justify-content: center;
+  align-items: center;
+  opacity:0;        
+  transition: 0.2s;
+}
+.hw1__layer-front:hover{
+  margin-left:10px;
+  margin-top:10px;
+  opacity:1
+}
+.text-big{
+  color:white;
+  font-family: 'Ubuntu';
+  font-size:14px
+}
+.text-small{
+  color:#c0392b;
+  font-family: 'Ubuntu';
+  margin-top:5px;
+  margin-bottom:20px;
+  font-size:12px;
+}
+.text-btn{
+  font-family: 'Ubuntu';
+  background-color: #e74c3c;
+  text-align: center;
+  color:white;
+  width:100px;
+  height:30px;
+  line-height:30px;
+  font-size:14px;
+}    
+
+.hw2{        
+  margin-top:10px;
+  width:300px;       
+  height:200px; 
+  overflow: hidden;
+}
+.hw2__top-box{
+  background-color: #01a99c;
+  width:300px;
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.hw2__top-box:hover{
+  height:135px;
+}
+.hw2__image{
+  width:100px;
+  height:100px;
+}    
+.hw2__bot-box{
+  width:300px;
+  height:65px;
+  background-color: #34495e;
+  display: flex;        
+  justify-content: space-around;
+  align-items: center;        
+}
+.hw2__bot-box:hover{
+  height:65px;
+}
+.hw2__text-box, .hw3__text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hw2__text-small, #hw3__text-small{
+  margin:0;
+}
+
+.hw3{        
+  margin-top:10px;
+  position: relative;  
+}
+.hw3__layer-front{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height:200px;        
+  transition: 0.2s;        
+}
+.hw3__layer-front:hover{
+  width:200px;
+  height:100px;
+  margin-left:50px;
+  margin-top:20px;
+}
+.hw3__image{       
+  width:90%;        
+}
+.hw3__layer-back{        
+  background-color:#34495e;
+  width:300px;
+  height:200px;
+  display: flex;
+  justify-content: space-around;        
+}
+.hw3__text-box, #hw3__text-btn{
+  margin-top:150px;
+}
+  
