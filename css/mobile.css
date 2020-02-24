@@ -3,22 +3,17 @@
   width: 100%;
   height: 100%;
   background-color: #ddedde;
-  /* background-color  #fce006; */
   top: 0;
-  cursor: not-allowed;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 5;
   color: white;
   font-size: 50px;
-  /* font-weight: 500; */
   line-height: 1.5;
   text-shadow: 4px 4px 10px gray;
-  display: none;
-<<<<<<< HEAD
-=======
   margin-left: -20px;
->>>>>>> master
+  display: none;
 }
 
 @media screen and (min-width: 550px) {
